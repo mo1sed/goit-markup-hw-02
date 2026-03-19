@@ -1,0 +1,70 @@
+.span-studio {
+    color:#4D5AE5;
+    font-family: 'Raleway', sans-serif;
+}
+.webstudio-cloud {
+    color:#F4F4FD;
+    font-family: 'Raleway', sans-serif;
+}
+.webstudio-iris {
+    color: 2E2F42;
+    font-family: 'Raleway', sans-serif;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: regular;
+    font-size: 16px;
+    letter-spacing: 2%;
+    line-height: 24px;
+    color: #434455;
+    background-color: #F4F4FD;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-weight: bold;
+    font-size: 56px;
+    letter-spacing: 2%;
+    line-height: 60px;
+}
+h2 {
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 2%;
+}
+a {
+    text-decoration: none;
+    color: #2E2F42;
+}
+.header-white {
+    background-color: #FFFFFF;
+}
+button {
+    background-color: #4D5AE5;
+    color:#FFFFFF;
+    cursor: pointer;
+    font-weight: medium;
+    font-size: 16px;
+    letter-spacing: 4%;
+    line-height: 24px;
+}
+.overlay {
+    background-color: #2E2F42;
+    color: #FFFFFF;
+}
+
+.overlay h1 {
+    text-align: center;
+}
+.team-center h3 {
+    text-align: center;
+}
+.team-center p {
+    text-align: center;
+}
+.team-center h2 {
+    text-align: center;
+}
