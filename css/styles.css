@@ -7,12 +7,12 @@
     font-family: 'Raleway', sans-serif;
 }
 .webstudio-iris {
-    color: 2E2F42;
+    color: #2E2F42;
     font-family: 'Raleway', sans-serif;
 }
 body {
     font-family: 'Roboto', sans-serif;
-    font-weight: regular;
+    font-weight: 400;
     font-size: 16px;
     letter-spacing: 2%;
     line-height: 24px;
@@ -24,14 +24,14 @@ ul {
     margin: 0;
     padding: 0;
 }
-h1{
-    font-weight: bold;
+h1 {
+    font-weight: 700;
     font-size: 56px;
     letter-spacing: 2%;
     line-height: 60px;
 }
 h2 {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 36px;
     letter-spacing: 2%;
 }
@@ -44,9 +44,9 @@ a {
 }
 button {
     background-color: #4D5AE5;
-    color:#FFFFFF;
+    color: #FFFFFF;
     cursor: pointer;
-    font-weight: medium;
+    font-weight: 600;
     font-size: 16px;
     letter-spacing: 4%;
     line-height: 24px;
