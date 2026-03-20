@@ -12,12 +12,11 @@
 }
 body {
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
     font-size: 16px;
-    letter-spacing: 2%;
-    line-height: 24px;
+    letter-spacing: 0.02em;
+    line-height: 1.5em;
     color: #434455;
-    background-color: #F4F4FD;
+    background-color: #fff;
 }
 ul {
     list-style: none;
@@ -27,17 +26,17 @@ ul {
 h1 {
     font-weight: 700;
     font-size: 56px;
-    letter-spacing: 2%;
-    line-height: 60px;
+    letter-spacing: 0.02em;
+    line-height: 1.2em;
 }
 h2 {
     font-weight: 700;
     font-size: 36px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
 }
 a {
     text-decoration: none;
-    color: #2E2F42;
+    color: #434455;
 }
 .header-white {
     background-color: #FFFFFF;
@@ -48,8 +47,8 @@ button {
     cursor: pointer;
     font-weight: 600;
     font-size: 16px;
-    letter-spacing: 4%;
-    line-height: 24px;
+    letter-spacing: 0.04em;
+    line-height: 1.5em;
 }
 .overlay {
     background-color: #2E2F42;
@@ -67,4 +66,31 @@ button {
 }
 .team-center h2 {
     text-align: center;
+}
+.team-center {
+    background-color: #F4F4FD;
+}
+.portfolio-center h2 {
+    text-align: center;
+}
+
+
+
+.change-button:hover {
+    color: #404bbf;
+}
+.change-button:focus {
+    color: #404bbf;
+}
+
+
+
+.change-color a:hover {
+    color: #404bbf;
+}
+.change-color a:focus {
+    color: #404bbf;
+}
+address {
+    font-style: normal;
 }
