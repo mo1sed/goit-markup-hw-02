@@ -19,7 +19,7 @@ body {
     background-color: #fff;
 }
 p{
-    font-size:16px;
+    font-size:12px;
     letter-spacing: 0.02em;
     line-height: 1.5;
 }
@@ -32,20 +32,17 @@ h1 {
     font-weight: 700;
     font-size: 56px;
     letter-spacing: 0.02em;
-    line-height: 1.07;
+    line-height: 1.2;
 }
 h2 {
     font-weight: 700;
     font-size: 36px;
     letter-spacing: 0.02em;
-    line-height: 1.11;
-    color: #2E2F42;
 }
 h3 {
-    font-weight: 500;
+    font-weight: medium;
     font-size: 20px;
     letter-spacing: 0.02em;
-    line-height: 1.17;
 }
 a {
     text-decoration: none;
@@ -57,7 +54,7 @@ button {
     background-color: #4D5AE5;
     color: #FFFFFF;
     cursor: pointer;
-    font-weight: 500;
+    font-weight: medium;
     font-size: 16px;
     letter-spacing: 0.04em;
     line-height: 1.5;
@@ -110,16 +107,10 @@ button {
 
 .change-color a {
     color: #2E2F42;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
 }
 
 address .change-color a {
     color: #434455;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
 }
 
 .change-color a:hover {
