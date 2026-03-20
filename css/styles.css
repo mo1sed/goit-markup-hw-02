@@ -14,9 +14,14 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     letter-spacing: 0.02em;
-    line-height: 1.5em;
+    line-height: 1.5;
     color: #434455;
     background-color: #fff;
+}
+p{
+    font-size:12px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
 }
 ul {
     list-style: none;
@@ -27,16 +32,20 @@ h1 {
     font-weight: 700;
     font-size: 56px;
     letter-spacing: 0.02em;
-    line-height: 1.2em;
+    line-height: 1.2;
 }
 h2 {
     font-weight: 700;
     font-size: 36px;
     letter-spacing: 0.02em;
 }
+h3 {
+    font-weight: medium;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+}
 a {
     text-decoration: none;
-    color: #434455;
 }
 .header-white {
     background-color: #FFFFFF;
@@ -45,24 +54,29 @@ button {
     background-color: #4D5AE5;
     color: #FFFFFF;
     cursor: pointer;
-    font-weight: 600;
+    font-weight: medium;
     font-size: 16px;
     letter-spacing: 0.04em;
-    line-height: 1.5em;
+    line-height: 1.5;
 }
 .overlay {
     background-color: #2E2F42;
     color: #FFFFFF;
 }
-
+.overlay-footer {
+    background-color: #2E2F42;
+    color: #F4F4FD;
+}
 .overlay h1 {
     text-align: center;
 }
 .team-center h3 {
     text-align: center;
+    color:#2E2F42;
 }
 .team-center p {
     text-align: center;
+    color:#434455;
 }
 .team-center h2 {
     text-align: center;
@@ -74,16 +88,30 @@ button {
     text-align: center;
 }
 
+.portfolio-center p {
+    color:#434455;
+}
+.portfolio-center h3 {
+    color:#2E2F42;
+}
+
 
 
 .change-button:hover {
-    color: #404bbf;
+    background-color: #404bbf;
 }
 .change-button:focus {
-    color: #404bbf;
+    background-color: #404bbf;
 }
 
 
+.change-color a {
+    color: #2E2F42;
+}
+
+address .change-color a {
+    color: #434455;
+}
 
 .change-color a:hover {
     color: #404bbf;
