@@ -32,20 +32,33 @@ h1 {
     font-weight: 700;
     font-size: 56px;
     letter-spacing: 0.02em;
+    line-height: 60px;
 }
 h2 {
     font-weight: 700;
     font-size: 36px;
     letter-spacing: 0.02em;
+    line-height: 42px;
 }
 h3 {
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
-    line-height: 1.5;
+    line-height: 24px;
 }
 a {
     text-decoration: none;
+    font-weight: 500;
+}
+nav a {
+    font-weight: 500;
+}
+nav > a {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 0.02em;
 }
 .header-white {
     background-color: #FFFFFF;
@@ -55,7 +68,7 @@ button {
     color: #FFFFFF;
     cursor: pointer;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 16px;
     letter-spacing: 0.04em;
     line-height: 1.5;
 }
@@ -87,6 +100,7 @@ button {
 }
 .portfolio-center h2 {
     text-align: center;
+    color: #2E2F42;
 }
 
 .portfolio-center p {
@@ -110,14 +124,14 @@ button {
     color: #2E2F42;
 }
 
-address .change-color a {
+.change-color-address {
     color: #434455;
 }
 
-.change-color a:hover {
-    color: #404bbf;
-}
-.change-color a:focus {
+.change-color a:hover,
+.change-color a:focus,
+.change-color-address:hover,
+.change-color-address:focus {
     color: #404bbf;
 }
 address {
