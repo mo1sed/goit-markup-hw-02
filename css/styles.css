@@ -57,9 +57,9 @@ a {
 .logo-link {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 24px;
-    line-height: 1.25;
-    letter-spacing: 0.02em;
+    font-size: 32px;
+    line-height: 1.15;
+    letter-spacing: 0.04em;
 }
 .header-white {
     background-color: #FFFFFF;
@@ -87,6 +87,7 @@ button {
 .team-title {
     text-align: center;
     color:#2E2F42;
+    line-height: 1.11;
 }
 .team-member-title {
     text-align: center;
@@ -102,6 +103,7 @@ button {
 .portfolio-title {
     text-align: center;
     color: #2E2F42;
+    line-height: 1.11;
 }
 .portfolio-item-title {
     color:#2E2F42;
@@ -122,6 +124,7 @@ button {
 
 .change-color-address {
     color: #434455;
+    font-weight: 400;
 }
 
 .nav-link:hover,
